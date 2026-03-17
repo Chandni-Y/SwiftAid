@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "hybrid",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/auth/login",
+      "regex": "^/api/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/login(?:/)?$"
+    },
+    {
+      "page": "/api/auth/signup",
+      "regex": "^/api/auth/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/signup(?:/)?$"
+    },
+    {
+      "page": "/dashboard/authority",
+      "regex": "^/dashboard/authority(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/authority(?:/)?$"
+    },
+    {
+      "page": "/dashboard/citizen",
+      "regex": "^/dashboard/citizen(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/citizen(?:/)?$"
+    },
+    {
+      "page": "/DashboardAuthority",
+      "regex": "^/DashboardAuthority(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/DashboardAuthority(?:/)?$"
+    },
+    {
+      "page": "/DashboardCitizen",
+      "regex": "^/DashboardCitizen(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/DashboardCitizen(?:/)?$"
+    },
+    {
+      "page": "/forgot-password",
+      "regex": "^/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/login/authority",
+      "regex": "^/login/authority(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login/authority(?:/)?$"
+    },
+    {
+      "page": "/login/citizen",
+      "regex": "^/login/citizen(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login/citizen(?:/)?$"
+    },
+    {
+      "page": "/signup/authority",
+      "regex": "^/signup/authority(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup/authority(?:/)?$"
+    },
+    {
+      "page": "/signup/citizen",
+      "regex": "^/signup/citizen(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup/citizen(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "citizens": [
+    {
+      "id": "1773694459604",
+      "name": "deepak",
+      "email": "deepa3103agrawal@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1773694875401",
+      "name": "Deepak",
+      "email": "deepak231055cst@sdbc.ac.in",
+      "password": "123"
+    }
+  ],
+  "authorities": [
+    {
+      "id": "1773698099848",
+      "name": "gourav",
+      "email": "sdbc@fire.gov",
+      "department": "Fire",
+      "password": "1234"
+    },
+    {
+      "id": "1773711788002",
+      "name": "MEDICAL DEPARTMENT",
+      "email": "SDBCmedical@gov.in",
+      "department": "Medical",
+      "password": "1234"
+    }
+  ]
+}

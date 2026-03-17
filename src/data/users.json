@@ -1,0 +1,19 @@
+{
+  "citizens": [
+    {
+      "id": "c1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123"
+    }
+  ],
+  "authorities": [
+    {
+      "id": "a1",
+      "name": "Officer Smith",
+      "email": "smith@police.gov",
+      "department": "Police",
+      "password": "password123"
+    }
+  ]
+}

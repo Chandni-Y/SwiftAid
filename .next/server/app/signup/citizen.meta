@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/signup/layout,_N_T_/signup/citizen/layout,_N_T_/signup/citizen/page,_N_T_/signup/citizen"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/signup/citizen/__PAGE__",
+    "/signup/citizen",
+    "/signup",
+    "/_index",
+    "/_head"
+  ]
+}

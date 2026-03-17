@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/login/route": "/api/auth/login",
+  "/api/auth/signup/route": "/api/auth/signup",
+  "/dashboard/authority/page": "/dashboard/authority",
+  "/dashboard/citizen/page": "/dashboard/citizen",
+  "/forgot-password/page": "/forgot-password",
+  "/login/authority/page": "/login/authority",
+  "/login/citizen/page": "/login/citizen",
+  "/login/page": "/login",
+  "/page": "/",
+  "/signup/authority/page": "/signup/authority",
+  "/signup/citizen/page": "/signup/citizen"
+}

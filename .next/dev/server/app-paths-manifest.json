@@ -1,0 +1,12 @@
+{
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/signup/route": "app/api/auth/signup/route.js",
+  "/dashboard/authority/page": "app/dashboard/authority/page.js",
+  "/dashboard/citizen/page": "app/dashboard/citizen/page.js",
+  "/login/authority/page": "app/login/authority/page.js",
+  "/login/citizen/page": "app/login/citizen/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/signup/authority/page": "app/signup/authority/page.js",
+  "/signup/citizen/page": "app/signup/citizen/page.js"
+}
