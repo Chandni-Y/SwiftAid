@@ -22,8 +22,7 @@ SwiftAid provides a **smart, AI-driven system** that:
 
 - 🚑 Selects the best emergency vehicle  
 - 🗺 Calculates optimal routes using real-time traffic data  
-- 🚦 Creates **Green Corridors** by controlling traffic signals  
-- 🚗 Alerts nearby vehicles to clear the path  
+- 🚦 Creates **Green Corridors** by controlling traffic signals   
 - 🏥 Connects with hospitals for faster response  
 
 ---
@@ -61,3 +60,15 @@ REST APIs + Short Polling
 ---
 
 ## 🧠 System Workflow  
+
+Emergency Request
+↓
+Vehicle Dispatch
+↓
+Route Optimization
+↓
+Traffic Signal Control
+↓
+Green Corridor
+↓
+Reach Destination
