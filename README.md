@@ -61,14 +61,4 @@ REST APIs + Short Polling
 
 ## 🧠 System Workflow  
 
-Emergency Request
-↓
-Vehicle Dispatch
-↓
-Route Optimization
-↓
-Traffic Signal Control
-↓
-Green Corridor
-↓
-Reach Destination
+Emergency Request → Vehicle Dispatch → Route Optimization → Traffic Signal Control → Green Corridor → Reach Destination
