@@ -1,23 +1,63 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚑 SwiftAid  
+### Smart Emergency Vehicle Navigation & Traffic Coordination System  
 
-# SwiftAid
+SwiftAid is a **real-time emergency vehicle navigation system** designed to reduce response time by creating intelligent routes and dynamic green corridors using traffic signal coordination.
 
-## Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🎯 Problem  
 
-View your app in AI Studio: https://ai.studio/apps/b31b4216-3c84-4b80-aa05-1be8731e5d90
+Emergency vehicles often face delays due to:  
+- Traffic congestion  
+- Lack of traffic signal coordination  
+- Unaware drivers on roads  
 
-## Run Locally
+👉 This results in **delayed response and risk to human lives**
 
-**Prerequisites:** Node.js
+---
 
-1. Install dependencies:
-   npm install
+## 💡 Solution  
 
-2. Set the GEMINI_API_KEY in `.env.local` to your Gemini API key
+SwiftAid provides a **smart, AI-driven system** that:
 
-3. Run the app:
-   npm run dev
+- 🚑 Selects the best emergency vehicle  
+- 🗺 Calculates optimal routes using real-time traffic data  
+- 🚦 Creates **Green Corridors** by controlling traffic signals  
+- 🚗 Alerts nearby vehicles to clear the path  
+- 🏥 Connects with hospitals for faster response  
+
+---
+
+## ⚙️ Features  
+
+- 🚑 Multi-emergency support (Ambulance, Fire, Police)  
+- 🧠 Smart dispatch system  
+- 🗺 Real-time route optimization  
+- 🚦 Predictive traffic signal control  
+- 🚗 Traffic reaction system  
+- 📢 Public alert system  
+- 🏥 Hospital coordination  
+- 📊 Live dashboard monitoring  
+
+---
+
+## 🏗 Tech Stack  
+
+### 💻 Frontend  
+Next.js + Mapbox  
+
+### ⚙️ Backend  
+Python (FastAPI), OSMnx, NetworkX  
+
+### 📱 Mobile App  
+React Native (Expo)  
+
+### 🗄 Database  
+Firebase / PostgreSQL  
+
+### 🔄 Real-time  
+REST APIs + Short Polling  
+
+---
+
+## 🧠 System Workflow  
